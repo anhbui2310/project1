@@ -28,6 +28,11 @@ body {
   font-family: Poppins;
   font-size: 1.6rem;
 }
+
+.nowrap {
+  white-space: nowrap;
+}
+
 /* ^GENERAL SETTING^ */
 
 /* GENERAL STYLING*/
@@ -227,7 +232,7 @@ button {
 .body .content-block {
   display: flex;
   flex-direction: column;
-  margin-left: 130px;
+  margin-left: auto;
   width: 470px;
 }
 
@@ -301,11 +306,11 @@ button {
 /* ^HERO^ */
 
 /* CONTENT */
-.content {
+.course-introduction {
   margin-top: 200px;
 }
 
-.content .head-content {
+.course-introduction .head-content {
   position: relative;
   margin-bottom: 55px;
   margin-left: 135px;
@@ -334,13 +339,13 @@ button {
   line-height: 30px;
 }
 
-.content .main-content {
+.course-introduction .main-content {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
-.content .main-content .card {
+.course-introduction .main-content .card {
   flex-basis: calc((100% - 80px) / 3);
   height: 466px;
   border-radius: 12px;
@@ -393,4 +398,75 @@ button {
   justify-content: space-between;
   align-items: center;
   margin-top: 12px;
+}
+
+.footer {
+  background: #2e2100;
+}
+
+.review {
+  margin-top: 200px;
+}
+
+.review .main-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
+
+.profile-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-card .avatar-card {
+  margin-bottom: 18px;
+  align-self: flex-start;
+}
+
+.profile-card .name-card {
+  color: #f7f7f7;
+  font-family: Sen;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 34px;
+  margin-bottom: 4px;
+}
+
+.profile-card .job-card {
+  color: #bfbcb2;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.profile-card .switch {
+  align-self: flex-start;
+  margin-top: 28px;
+}
+.quote {
+  position: relative;
+  margin-left: auto;
+}
+
+.quote .img {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.quote .speech {
+  width: 740px;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 26px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 40px;
+  margin-left: 30px;
 }
